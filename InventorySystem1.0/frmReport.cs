@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using InventorySystem1._0.Includes;
+using CrystalDecisions.Windows.Forms;
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace InventorySystem1._0
 {
@@ -34,11 +36,12 @@ namespace InventorySystem1._0
 
                 string strReportPath = Application.StartupPath + "\\reports\\" + reportname + ".rpt";
 
+                
 
                 reportdoc.Load(strReportPath);
                 reportdoc.SetDataSource(config.dt);
 
-                //crystalReportViewer1.ReportSource = reportdoc;
+                crystalReportViewer1.ReportSource = reportdoc;
             }
             catch (Exception ex)
             {

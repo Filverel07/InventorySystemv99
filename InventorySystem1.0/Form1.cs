@@ -112,5 +112,12 @@ namespace InventorySystem1._0
             closeForm();
             showFrm(new frmSettings());
         }
+
+        private void ts_suppliers_Click(object sender, EventArgs e)
+        {
+            closeForm();
+            showFrm(new frmsupplier());
+
+        }
     }
 }
