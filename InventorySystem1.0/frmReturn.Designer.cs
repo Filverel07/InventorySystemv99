@@ -35,16 +35,7 @@
             this.btnreturn_save = new System.Windows.Forms.Button();
             this.btnreturnadd = new System.Windows.Forms.Button();
             this.Panel7 = new System.Windows.Forms.Panel();
-            this.Panel6 = new System.Windows.Forms.Panel();
-            this.Label26 = new System.Windows.Forms.Label();
-            this.txttransactionid = new System.Windows.Forms.TextBox();
-            this.GroupBox3 = new System.Windows.Forms.GroupBox();
-            this.Label25 = new System.Windows.Forms.Label();
-            this.Label24 = new System.Windows.Forms.Label();
-            this.txtreturn_address = new System.Windows.Forms.TextBox();
-            this.txtreturn_name = new System.Windows.Forms.TextBox();
             this.dtCus_addedlist = new System.Windows.Forms.DataGridView();
-            this.dtgCus_itemlist = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,20 +43,30 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Panel6 = new System.Windows.Forms.Panel();
+            this.dtgCus_itemlist = new System.Windows.Forms.DataGridView();
+            this.Label26 = new System.Windows.Forms.Label();
+            this.txttransactionid = new System.Windows.Forms.TextBox();
+            this.GroupBox3 = new System.Windows.Forms.GroupBox();
+            this.Label25 = new System.Windows.Forms.Label();
+            this.Label24 = new System.Windows.Forms.Label();
+            this.txtreturn_address = new System.Windows.Forms.TextBox();
+            this.txtreturn_name = new System.Windows.Forms.TextBox();
             this.Panel7.SuspendLayout();
-            this.Panel6.SuspendLayout();
-            this.GroupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtCus_addedlist)).BeginInit();
+            this.Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgCus_itemlist)).BeginInit();
+            this.GroupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button1
             // 
             this.Button1.BackColor = System.Drawing.Color.Transparent;
             this.Button1.ForeColor = System.Drawing.Color.Black;
-            this.Button1.Location = new System.Drawing.Point(349, 496);
+            this.Button1.Location = new System.Drawing.Point(465, 610);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(88, 26);
+            this.Button1.Size = new System.Drawing.Size(117, 32);
             this.Button1.TabIndex = 26;
             this.Button1.Text = "Close";
             this.Button1.UseVisualStyleBackColor = false;
@@ -75,9 +76,10 @@
             // 
             this.btnvewlreturn.BackColor = System.Drawing.Color.Transparent;
             this.btnvewlreturn.ForeColor = System.Drawing.Color.Black;
-            this.btnvewlreturn.Location = new System.Drawing.Point(255, 496);
+            this.btnvewlreturn.Location = new System.Drawing.Point(340, 610);
+            this.btnvewlreturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnvewlreturn.Name = "btnvewlreturn";
-            this.btnvewlreturn.Size = new System.Drawing.Size(88, 26);
+            this.btnvewlreturn.Size = new System.Drawing.Size(117, 32);
             this.btnvewlreturn.TabIndex = 25;
             this.btnvewlreturn.Text = "View List";
             this.btnvewlreturn.UseVisualStyleBackColor = false;
@@ -87,9 +89,10 @@
             // 
             this.btnreturn_clear.BackColor = System.Drawing.Color.Transparent;
             this.btnreturn_clear.ForeColor = System.Drawing.Color.Black;
-            this.btnreturn_clear.Location = new System.Drawing.Point(174, 498);
+            this.btnreturn_clear.Location = new System.Drawing.Point(232, 613);
+            this.btnreturn_clear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnreturn_clear.Name = "btnreturn_clear";
-            this.btnreturn_clear.Size = new System.Drawing.Size(75, 23);
+            this.btnreturn_clear.Size = new System.Drawing.Size(100, 28);
             this.btnreturn_clear.TabIndex = 22;
             this.btnreturn_clear.Text = "Clear";
             this.btnreturn_clear.UseVisualStyleBackColor = false;
@@ -99,9 +102,10 @@
             // 
             this.btnreturn_remove.BackColor = System.Drawing.Color.Transparent;
             this.btnreturn_remove.ForeColor = System.Drawing.Color.Black;
-            this.btnreturn_remove.Location = new System.Drawing.Point(93, 498);
+            this.btnreturn_remove.Location = new System.Drawing.Point(124, 613);
+            this.btnreturn_remove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnreturn_remove.Name = "btnreturn_remove";
-            this.btnreturn_remove.Size = new System.Drawing.Size(75, 23);
+            this.btnreturn_remove.Size = new System.Drawing.Size(100, 28);
             this.btnreturn_remove.TabIndex = 23;
             this.btnreturn_remove.Text = "Remove";
             this.btnreturn_remove.UseVisualStyleBackColor = false;
@@ -111,9 +115,10 @@
             // 
             this.btnreturn_save.BackColor = System.Drawing.Color.Transparent;
             this.btnreturn_save.ForeColor = System.Drawing.Color.Black;
-            this.btnreturn_save.Location = new System.Drawing.Point(12, 498);
+            this.btnreturn_save.Location = new System.Drawing.Point(16, 613);
+            this.btnreturn_save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnreturn_save.Name = "btnreturn_save";
-            this.btnreturn_save.Size = new System.Drawing.Size(75, 23);
+            this.btnreturn_save.Size = new System.Drawing.Size(100, 28);
             this.btnreturn_save.TabIndex = 24;
             this.btnreturn_save.Text = "Save";
             this.btnreturn_save.UseVisualStyleBackColor = false;
@@ -123,9 +128,10 @@
             // 
             this.btnreturnadd.BackColor = System.Drawing.Color.Transparent;
             this.btnreturnadd.ForeColor = System.Drawing.Color.Black;
-            this.btnreturnadd.Location = new System.Drawing.Point(12, 249);
+            this.btnreturnadd.Location = new System.Drawing.Point(16, 306);
+            this.btnreturnadd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnreturnadd.Name = "btnreturnadd";
-            this.btnreturnadd.Size = new System.Drawing.Size(78, 25);
+            this.btnreturnadd.Size = new System.Drawing.Size(104, 31);
             this.btnreturnadd.TabIndex = 21;
             this.btnreturnadd.Text = "Add";
             this.btnreturnadd.UseVisualStyleBackColor = false;
@@ -136,87 +142,11 @@
             this.Panel7.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel7.Controls.Add(this.dtCus_addedlist);
-            this.Panel7.Location = new System.Drawing.Point(12, 280);
+            this.Panel7.Location = new System.Drawing.Point(16, 345);
+            this.Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel7.Name = "Panel7";
-            this.Panel7.Size = new System.Drawing.Size(613, 212);
+            this.Panel7.Size = new System.Drawing.Size(817, 260);
             this.Panel7.TabIndex = 19;
-            // 
-            // Panel6
-            // 
-            this.Panel6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Panel6.Controls.Add(this.dtgCus_itemlist);
-            this.Panel6.Controls.Add(this.Label26);
-            this.Panel6.Controls.Add(this.txttransactionid);
-            this.Panel6.Controls.Add(this.GroupBox3);
-            this.Panel6.Location = new System.Drawing.Point(12, 12);
-            this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(613, 231);
-            this.Panel6.TabIndex = 20;
-            // 
-            // Label26
-            // 
-            this.Label26.AutoSize = true;
-            this.Label26.Location = new System.Drawing.Point(10, 19);
-            this.Label26.Name = "Label26";
-            this.Label26.Size = new System.Drawing.Size(81, 13);
-            this.Label26.TabIndex = 2;
-            this.Label26.Text = "Transaction Id :";
-            // 
-            // txttransactionid
-            // 
-            this.txttransactionid.Location = new System.Drawing.Point(97, 16);
-            this.txttransactionid.Name = "txttransactionid";
-            this.txttransactionid.Size = new System.Drawing.Size(488, 20);
-            this.txttransactionid.TabIndex = 0;
-            this.txttransactionid.TextChanged += new System.EventHandler(this.txttransactionid_TextChanged);
-            // 
-            // GroupBox3
-            // 
-            this.GroupBox3.Controls.Add(this.Label25);
-            this.GroupBox3.Controls.Add(this.Label24);
-            this.GroupBox3.Controls.Add(this.txtreturn_address);
-            this.GroupBox3.Controls.Add(this.txtreturn_name);
-            this.GroupBox3.Location = new System.Drawing.Point(13, 51);
-            this.GroupBox3.Name = "GroupBox3";
-            this.GroupBox3.Size = new System.Drawing.Size(589, 63);
-            this.GroupBox3.TabIndex = 0;
-            this.GroupBox3.TabStop = false;
-            this.GroupBox3.Text = "Customer Or Suplier Details";
-            // 
-            // Label25
-            // 
-            this.Label25.AutoSize = true;
-            this.Label25.Location = new System.Drawing.Point(266, 27);
-            this.Label25.Name = "Label25";
-            this.Label25.Size = new System.Drawing.Size(51, 13);
-            this.Label25.TabIndex = 1;
-            this.Label25.Text = "Address :";
-            // 
-            // Label24
-            // 
-            this.Label24.AutoSize = true;
-            this.Label24.Location = new System.Drawing.Point(6, 27);
-            this.Label24.Name = "Label24";
-            this.Label24.Size = new System.Drawing.Size(41, 13);
-            this.Label24.TabIndex = 1;
-            this.Label24.Text = "Name :";
-            // 
-            // txtreturn_address
-            // 
-            this.txtreturn_address.Enabled = false;
-            this.txtreturn_address.Location = new System.Drawing.Point(323, 24);
-            this.txtreturn_address.Name = "txtreturn_address";
-            this.txtreturn_address.Size = new System.Drawing.Size(249, 20);
-            this.txtreturn_address.TabIndex = 0;
-            // 
-            // txtreturn_name
-            // 
-            this.txtreturn_name.Enabled = false;
-            this.txtreturn_name.Location = new System.Drawing.Point(53, 24);
-            this.txtreturn_name.Name = "txtreturn_name";
-            this.txtreturn_name.Size = new System.Drawing.Size(186, 20);
-            this.txtreturn_name.TabIndex = 0;
             // 
             // dtCus_addedlist
             // 
@@ -235,10 +165,76 @@
             this.Column7});
             this.dtCus_addedlist.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtCus_addedlist.Location = new System.Drawing.Point(0, 0);
+            this.dtCus_addedlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtCus_addedlist.Name = "dtCus_addedlist";
-            this.dtCus_addedlist.Size = new System.Drawing.Size(611, 210);
+            this.dtCus_addedlist.RowHeadersWidth = 51;
+            this.dtCus_addedlist.Size = new System.Drawing.Size(815, 258);
             this.dtCus_addedlist.TabIndex = 1;
             this.dtCus_addedlist.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtCus_addedlist_CellEndEdit);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Item Id";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Item Name";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 120;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Description";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 120;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Price";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 80;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Quantity";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 80;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Total Price";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 80;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "StockoutID";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            this.Column7.Visible = false;
+            this.Column7.Width = 125;
+            // 
+            // Panel6
+            // 
+            this.Panel6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Panel6.Controls.Add(this.dtgCus_itemlist);
+            this.Panel6.Controls.Add(this.Label26);
+            this.Panel6.Controls.Add(this.txttransactionid);
+            this.Panel6.Controls.Add(this.GroupBox3);
+            this.Panel6.Location = new System.Drawing.Point(16, 15);
+            this.Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel6.Name = "Panel6";
+            this.Panel6.Size = new System.Drawing.Size(817, 284);
+            this.Panel6.TabIndex = 20;
             // 
             // dtgCus_itemlist
             // 
@@ -250,58 +246,91 @@
             this.dtgCus_itemlist.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgCus_itemlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgCus_itemlist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgCus_itemlist.Location = new System.Drawing.Point(1, 120);
+            this.dtgCus_itemlist.Location = new System.Drawing.Point(1, 148);
+            this.dtgCus_itemlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgCus_itemlist.Name = "dtgCus_itemlist";
             this.dtgCus_itemlist.RowHeadersVisible = false;
-            this.dtgCus_itemlist.Size = new System.Drawing.Size(607, 106);
+            this.dtgCus_itemlist.RowHeadersWidth = 51;
+            this.dtgCus_itemlist.Size = new System.Drawing.Size(809, 130);
             this.dtgCus_itemlist.TabIndex = 3;
             // 
-            // Column1
+            // Label26
             // 
-            this.Column1.HeaderText = "Item Id";
-            this.Column1.Name = "Column1";
+            this.Label26.AutoSize = true;
+            this.Label26.Location = new System.Drawing.Point(13, 23);
+            this.Label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label26.Name = "Label26";
+            this.Label26.Size = new System.Drawing.Size(98, 16);
+            this.Label26.TabIndex = 2;
+            this.Label26.Text = "Transaction Id :";
             // 
-            // Column2
+            // txttransactionid
             // 
-            this.Column2.HeaderText = "Item Name";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 120;
+            this.txttransactionid.Location = new System.Drawing.Point(129, 20);
+            this.txttransactionid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttransactionid.Name = "txttransactionid";
+            this.txttransactionid.Size = new System.Drawing.Size(649, 22);
+            this.txttransactionid.TabIndex = 0;
+            this.txttransactionid.TextChanged += new System.EventHandler(this.txttransactionid_TextChanged);
             // 
-            // Column3
+            // GroupBox3
             // 
-            this.Column3.HeaderText = "Description";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 120;
+            this.GroupBox3.Controls.Add(this.Label25);
+            this.GroupBox3.Controls.Add(this.Label24);
+            this.GroupBox3.Controls.Add(this.txtreturn_address);
+            this.GroupBox3.Controls.Add(this.txtreturn_name);
+            this.GroupBox3.Location = new System.Drawing.Point(17, 63);
+            this.GroupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox3.Name = "GroupBox3";
+            this.GroupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox3.Size = new System.Drawing.Size(785, 78);
+            this.GroupBox3.TabIndex = 0;
+            this.GroupBox3.TabStop = false;
+            this.GroupBox3.Text = "Customer Or Suplier Details";
             // 
-            // Column4
+            // Label25
             // 
-            this.Column4.HeaderText = "Price";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 80;
+            this.Label25.AutoSize = true;
+            this.Label25.Location = new System.Drawing.Point(355, 33);
+            this.Label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label25.Name = "Label25";
+            this.Label25.Size = new System.Drawing.Size(64, 16);
+            this.Label25.TabIndex = 1;
+            this.Label25.Text = "Address :";
             // 
-            // Column5
+            // Label24
             // 
-            this.Column5.HeaderText = "Quantity";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 80;
+            this.Label24.AutoSize = true;
+            this.Label24.Location = new System.Drawing.Point(8, 33);
+            this.Label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label24.Name = "Label24";
+            this.Label24.Size = new System.Drawing.Size(50, 16);
+            this.Label24.TabIndex = 1;
+            this.Label24.Text = "Name :";
             // 
-            // Column6
+            // txtreturn_address
             // 
-            this.Column6.HeaderText = "Total Price";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 80;
+            this.txtreturn_address.Enabled = false;
+            this.txtreturn_address.Location = new System.Drawing.Point(431, 30);
+            this.txtreturn_address.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtreturn_address.Name = "txtreturn_address";
+            this.txtreturn_address.Size = new System.Drawing.Size(331, 22);
+            this.txtreturn_address.TabIndex = 0;
             // 
-            // Column7
+            // txtreturn_name
             // 
-            this.Column7.HeaderText = "StockoutID";
-            this.Column7.Name = "Column7";
-            this.Column7.Visible = false;
+            this.txtreturn_name.Enabled = false;
+            this.txtreturn_name.Location = new System.Drawing.Point(71, 30);
+            this.txtreturn_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtreturn_name.Name = "txtreturn_name";
+            this.txtreturn_name.Size = new System.Drawing.Size(247, 22);
+            this.txtreturn_name.TabIndex = 0;
             // 
             // frmReturn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 539);
+            this.ClientSize = new System.Drawing.Size(852, 663);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.btnvewlreturn);
             this.Controls.Add(this.btnreturn_clear);
@@ -310,16 +339,18 @@
             this.Controls.Add(this.btnreturnadd);
             this.Controls.Add(this.Panel7);
             this.Controls.Add(this.Panel6);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmReturn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock Return";
             this.Load += new System.EventHandler(this.frmReturn_Load);
             this.Panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtCus_addedlist)).EndInit();
             this.Panel6.ResumeLayout(false);
             this.Panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgCus_itemlist)).EndInit();
             this.GroupBox3.ResumeLayout(false);
             this.GroupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtCus_addedlist)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgCus_itemlist)).EndInit();
             this.ResumeLayout(false);
 
         }

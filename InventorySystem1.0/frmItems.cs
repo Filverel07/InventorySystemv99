@@ -135,7 +135,7 @@ namespace InventorySystem1._0
         private void btnupdate_Click(object sender, EventArgs e)
         {
             sql = "UPDATE tblitems SET `NAME`='" + txtname.Text + "', `DESCRIPTION`='" + txtdescription.Text + "', `TYPE`='" + cbotype.Text + "', `PRICE`='" + txtprice.Text + "'" +
-            ",`UNIT`='" + cbounit.Text + "' WHERE ITEMID='" + txtitemid.Text + "'";
+            ",`UNIT`='" + cbounit.Text + "', `QTY`= '" + txtqty.Text + "' WHERE ITEMID='" + txtitemid.Text +  "'";
             config.Execute_CUD(sql, "Error to update:"+sql.ToString(), "Data has been updated in the database"); 
             btnnew_Click(sender, e);
         }
@@ -248,6 +248,11 @@ namespace InventorySystem1._0
             maxcolumn = dtglist.Columns.Count - 1;
 
             dtglist.Columns[maxcolumn].Visible = false;
+
+        }
+
+        private void txtqty_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
