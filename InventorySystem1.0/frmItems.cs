@@ -255,5 +255,26 @@ namespace InventorySystem1._0
         {
 
         }
+
+        private void btnGenerateOrderList_Click(object sender, EventArgs e)
+        {
+            // Query items with quantities below 5
+            string sql = "SELECT * FROM tblitems WHERE QTY < 5";
+            config.Load_DTG(sql, dtglist);
+
+            // Open the Purchase Order form if items need to be repurchased
+            if (dtglist.Rows.Count > 0)
+            {
+                // Create and show Purchase Order form
+                frmPurchaseOrder poForm = new frmPurchaseOrder();
+                poForm.SetItems(dtglist); // Pass the items to the Purchase Order form
+                poForm.Show();
+            }
+            else
+            {
+                MessageBox.Show("No items need to be repurchased.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
     }
 }

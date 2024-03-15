@@ -68,6 +68,7 @@ namespace InventorySystem1._0.Includes
                 con.Close();
             }
         }
+       
         public void Load_DTG(string sql,DataGridView dtg)
         {
             try
@@ -102,8 +103,8 @@ namespace InventorySystem1._0.Includes
                 da.Dispose();
                 con.Close();
             }
-
         }
+
         public void fiil_CBO(string sql, ComboBox cbo)
         {
             try
@@ -259,8 +260,10 @@ namespace InventorySystem1._0.Includes
         { 
             Execute_Query("UPDATE `tblautonumber` SET `END`=`END`+`INCREMENT` WHERE `DESCRIPTION`='" + id + "'");
         }
-       
 
-
+        internal DataTable GetDataTable(string sql)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
