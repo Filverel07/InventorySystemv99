@@ -54,5 +54,15 @@ namespace InventorySystem1._0
                 PurchaseOrderGridView.Rows.Add(itemID, itemName);
             }
         }
+
+        private void PurchaseOrderGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
