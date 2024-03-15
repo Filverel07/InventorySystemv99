@@ -40,7 +40,19 @@ namespace InventorySystem1._0
 
         private void button1_Click(object sender, EventArgs e)
         {
+            PurchaseOrderGridView.Rows.Clear();
 
+            // Add each item from listBoxItems as separate rows in PurchaseOrderGridView
+            foreach (string selectedItem in listBoxItems.Items)
+            {
+                // Split each item into itemID and itemName
+                string[] parts = selectedItem.Split(':');
+                string itemID = parts[0].Trim();
+                string itemName = parts[1].Trim();
+
+                // Add a new row to PurchaseOrderGridView with itemID and itemName
+                PurchaseOrderGridView.Rows.Add(itemID, itemName);
+            }
         }
     }
 }
