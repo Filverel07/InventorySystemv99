@@ -40,6 +40,37 @@ namespace InventorySystem1._0
 
         private void button1_Click(object sender, EventArgs e)
         {
+            PurchaseOrderGridView.Rows.Clear();
+
+            foreach (string selectedItem in listBoxItems.Items)
+            {
+                string[] parts = selectedItem.Split(':');
+                string itemID = parts[0].Trim();
+                string itemName = parts[1].Trim();
+
+                PurchaseOrderGridView.Rows.Add(itemID, itemName);
+            }
+        }
+
+        private void PurchaseOrderGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmItems itemsForm = new frmItems();
+            itemsForm.Show();
+            this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
