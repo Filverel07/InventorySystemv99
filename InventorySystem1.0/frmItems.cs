@@ -276,8 +276,6 @@ namespace InventorySystem1._0
             {
                 MessageBox.Show("No items need to be repurchased.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            this.Close();
         }
     }
 }

@@ -109,6 +109,7 @@
             // 
             // ts_Report
             // 
+            this.ts_Report.Enabled = false;
             this.ts_Report.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ts_Report.Image = ((System.Drawing.Image)(resources.GetObject("ts_Report.Image")));
             this.ts_Report.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -140,9 +141,9 @@
             this.ts_StockOut,
             this.ts_Return,
             this.ts_ManageUsers,
+            this.ts_suppliers,
             this.ts_Report,
-            this.ts_settings,
-            this.ts_suppliers});
+            this.ts_settings});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(161, 684);
@@ -151,10 +152,12 @@
             // 
             // ts_suppliers
             // 
+            this.ts_suppliers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ts_suppliers.Font = new System.Drawing.Font("Elephant", 12F);
             this.ts_suppliers.Image = ((System.Drawing.Image)(resources.GetObject("ts_suppliers.Image")));
             this.ts_suppliers.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_suppliers.Name = "ts_suppliers";
-            this.ts_suppliers.Size = new System.Drawing.Size(158, 59);
+            this.ts_suppliers.Size = new System.Drawing.Size(158, 65);
             this.ts_suppliers.Text = "Suppliers";
             this.ts_suppliers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ts_suppliers.Click += new System.EventHandler(this.ts_suppliers_Click);
