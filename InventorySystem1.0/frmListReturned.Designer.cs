@@ -82,7 +82,7 @@
             this.Name = "frmListReturned";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "List of Returned Items";
-            this.Load += new System.EventHandler(this.frmListReturned_Load);
+            this.Load += new System.EventHandler(this.frmReturn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtglist)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

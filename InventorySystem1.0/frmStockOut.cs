@@ -216,5 +216,10 @@ namespace InventorySystem1._0
             frmListStockout frm=new frmListStockout();
             frm.Show(); 
         }
+
+        private void txtCus_fname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

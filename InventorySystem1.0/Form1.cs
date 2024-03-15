@@ -90,7 +90,7 @@ namespace InventorySystem1._0
         {
             if (ts_Login.Text == "Login")
             {
-                closeForm();
+                
                 showFrm(new frmLogin(this));
             }
             else

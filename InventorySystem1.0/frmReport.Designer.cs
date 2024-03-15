@@ -39,13 +39,12 @@ namespace InventorySystem1._0
             this.btnStockOut = new System.Windows.Forms.Button();
             this.btnStockReturn = new System.Windows.Forms.Button();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.dtpto = new System.Windows.Forms.DateTimePicker();
             this.dptfrom = new System.Windows.Forms.DateTimePicker();
             this.ComboBox1 = new System.Windows.Forms.ComboBox();
-            //this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.button1 = new System.Windows.Forms.Button();
             this.Panel1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
             this.GroupBox1.SuspendLayout();
@@ -59,8 +58,9 @@ namespace InventorySystem1._0
             this.Panel1.Controls.Add(this.GroupBox1);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel1.Location = new System.Drawing.Point(0, 0);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(164, 607);
+            this.Panel1.Size = new System.Drawing.Size(218, 747);
             this.Panel1.TabIndex = 6;
             // 
             // GroupBox2
@@ -70,9 +70,11 @@ namespace InventorySystem1._0
             this.GroupBox2.Controls.Add(this.btnListStockin);
             this.GroupBox2.Controls.Add(this.btnStockOut);
             this.GroupBox2.Controls.Add(this.btnStockReturn);
-            this.GroupBox2.Location = new System.Drawing.Point(5, 24);
+            this.GroupBox2.Location = new System.Drawing.Point(7, 30);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Size = new System.Drawing.Size(146, 211);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Size = new System.Drawing.Size(195, 260);
             this.GroupBox2.TabIndex = 2;
             this.GroupBox2.TabStop = false;
             this.GroupBox2.Text = "Report Type";
@@ -81,9 +83,10 @@ namespace InventorySystem1._0
             // 
             this.btnitemlisat.BackColor = System.Drawing.Color.Transparent;
             this.btnitemlisat.ForeColor = System.Drawing.Color.Black;
-            this.btnitemlisat.Location = new System.Drawing.Point(9, 19);
+            this.btnitemlisat.Location = new System.Drawing.Point(12, 23);
+            this.btnitemlisat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnitemlisat.Name = "btnitemlisat";
-            this.btnitemlisat.Size = new System.Drawing.Size(124, 30);
+            this.btnitemlisat.Size = new System.Drawing.Size(165, 37);
             this.btnitemlisat.TabIndex = 3;
             this.btnitemlisat.Text = "List Of Items";
             this.btnitemlisat.UseVisualStyleBackColor = false;
@@ -96,9 +99,10 @@ namespace InventorySystem1._0
             "Daily Report",
             "Weekly Report",
             "Monthly Report"});
-            this.cbooption.Location = new System.Drawing.Point(9, 55);
+            this.cbooption.Location = new System.Drawing.Point(12, 68);
+            this.cbooption.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbooption.Name = "cbooption";
-            this.cbooption.Size = new System.Drawing.Size(124, 21);
+            this.cbooption.Size = new System.Drawing.Size(164, 24);
             this.cbooption.TabIndex = 2;
             this.cbooption.Text = "Daily Report";
             // 
@@ -106,9 +110,10 @@ namespace InventorySystem1._0
             // 
             this.btnListStockin.BackColor = System.Drawing.Color.Transparent;
             this.btnListStockin.ForeColor = System.Drawing.Color.Black;
-            this.btnListStockin.Location = new System.Drawing.Point(9, 84);
+            this.btnListStockin.Location = new System.Drawing.Point(12, 103);
+            this.btnListStockin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnListStockin.Name = "btnListStockin";
-            this.btnListStockin.Size = new System.Drawing.Size(124, 30);
+            this.btnListStockin.Size = new System.Drawing.Size(165, 37);
             this.btnListStockin.TabIndex = 0;
             this.btnListStockin.Text = "List Of Stock Items";
             this.btnListStockin.UseVisualStyleBackColor = false;
@@ -118,9 +123,10 @@ namespace InventorySystem1._0
             // 
             this.btnStockOut.BackColor = System.Drawing.Color.Transparent;
             this.btnStockOut.ForeColor = System.Drawing.Color.Black;
-            this.btnStockOut.Location = new System.Drawing.Point(9, 120);
+            this.btnStockOut.Location = new System.Drawing.Point(12, 148);
+            this.btnStockOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStockOut.Name = "btnStockOut";
-            this.btnStockOut.Size = new System.Drawing.Size(124, 30);
+            this.btnStockOut.Size = new System.Drawing.Size(165, 37);
             this.btnStockOut.TabIndex = 0;
             this.btnStockOut.Text = "List Of Sold Items";
             this.btnStockOut.UseVisualStyleBackColor = false;
@@ -130,9 +136,10 @@ namespace InventorySystem1._0
             // 
             this.btnStockReturn.BackColor = System.Drawing.Color.Transparent;
             this.btnStockReturn.ForeColor = System.Drawing.Color.Black;
-            this.btnStockReturn.Location = new System.Drawing.Point(9, 156);
+            this.btnStockReturn.Location = new System.Drawing.Point(12, 192);
+            this.btnStockReturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStockReturn.Name = "btnStockReturn";
-            this.btnStockReturn.Size = new System.Drawing.Size(124, 30);
+            this.btnStockReturn.Size = new System.Drawing.Size(165, 37);
             this.btnStockReturn.TabIndex = 0;
             this.btnStockReturn.Text = "List Of Returned Items";
             this.btnStockReturn.UseVisualStyleBackColor = false;
@@ -145,28 +152,43 @@ namespace InventorySystem1._0
             this.GroupBox1.Controls.Add(this.Label1);
             this.GroupBox1.Controls.Add(this.dtpto);
             this.GroupBox1.Controls.Add(this.dptfrom);
-            this.GroupBox1.Location = new System.Drawing.Point(5, 254);
+            this.GroupBox1.Location = new System.Drawing.Point(7, 313);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Size = new System.Drawing.Size(146, 152);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Size = new System.Drawing.Size(195, 187);
             this.GroupBox1.TabIndex = 2;
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Report Date Filter";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 134);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Preview";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(6, 67);
+            this.Label2.Location = new System.Drawing.Point(8, 82);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(20, 13);
+            this.Label2.Size = new System.Drawing.Size(24, 16);
             this.Label2.TabIndex = 3;
             this.Label2.Text = "To";
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(6, 28);
+            this.Label1.Location = new System.Drawing.Point(8, 34);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(30, 13);
+            this.Label1.Size = new System.Drawing.Size(38, 16);
             this.Label1.TabIndex = 2;
             this.Label1.Text = "From";
             // 
@@ -174,18 +196,20 @@ namespace InventorySystem1._0
             // 
             this.dtpto.CustomFormat = "yyyy-MM-dd";
             this.dtpto.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpto.Location = new System.Drawing.Point(9, 83);
+            this.dtpto.Location = new System.Drawing.Point(12, 102);
+            this.dtpto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpto.Name = "dtpto";
-            this.dtpto.Size = new System.Drawing.Size(131, 20);
+            this.dtpto.Size = new System.Drawing.Size(173, 22);
             this.dtpto.TabIndex = 2;
             // 
             // dptfrom
             // 
             this.dptfrom.CustomFormat = "yyyy-MM-dd";
             this.dptfrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dptfrom.Location = new System.Drawing.Point(9, 44);
+            this.dptfrom.Location = new System.Drawing.Point(12, 54);
+            this.dptfrom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dptfrom.Name = "dptfrom";
-            this.dptfrom.Size = new System.Drawing.Size(131, 20);
+            this.dptfrom.Size = new System.Drawing.Size(173, 22);
             this.dptfrom.TabIndex = 2;
             // 
             // ComboBox1
@@ -203,47 +227,22 @@ namespace InventorySystem1._0
             "October",
             "November",
             "December"});
-            this.ComboBox1.Location = new System.Drawing.Point(239, 44);
+            this.ComboBox1.Location = new System.Drawing.Point(319, 54);
+            this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(124, 21);
+            this.ComboBox1.Size = new System.Drawing.Size(164, 24);
             this.ComboBox1.TabIndex = 7;
-            // 
-            // crystalReportViewer1
-            //
-            /*
-             this.crystalReportViewer1.ActiveViewIndex = -1;
-            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(164, 0);
-            this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ShowGroupTreeButton = false;
-            this.crystalReportViewer1.ShowParameterPanelButton = false;
-            this.crystalReportViewer1.ShowRefreshButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(743, 607);
-            this.crystalReportViewer1.TabIndex = 8;
-            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
-            */
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(9, 109);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Preview";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 607);
-            //this.Controls.Add(this.crystalReportViewer1);
+            this.ClientSize = new System.Drawing.Size(1209, 747);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.ComboBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmReport";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reports";
             this.Load += new System.EventHandler(this.frmReport_Load);
             this.Panel1.ResumeLayout(false);
