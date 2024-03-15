@@ -61,10 +61,11 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
             this.dtgtypelist.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dtgtypelist.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgtypelist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgtypelist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgtypelist.Location = new System.Drawing.Point(8, 66);
-            this.dtgtypelist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgtypelist.Margin = new System.Windows.Forms.Padding(4);
             this.dtgtypelist.Name = "dtgtypelist";
             this.dtgtypelist.RowHeadersVisible = false;
             this.dtgtypelist.RowHeadersWidth = 51;
@@ -75,7 +76,7 @@
             // txtunit
             // 
             this.txtunit.Location = new System.Drawing.Point(96, 34);
-            this.txtunit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtunit.Margin = new System.Windows.Forms.Padding(4);
             this.txtunit.Name = "txtunit";
             this.txtunit.Size = new System.Drawing.Size(281, 23);
             this.txtunit.TabIndex = 2;
@@ -84,8 +85,8 @@
             // 
             this.btnusave.BackColor = System.Drawing.Color.White;
             this.btnusave.ForeColor = System.Drawing.Color.Black;
-            this.btnusave.Location = new System.Drawing.Point(387, 38);
-            this.btnusave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnusave.Location = new System.Drawing.Point(387, 144);
+            this.btnusave.Margin = new System.Windows.Forms.Padding(4);
             this.btnusave.Name = "btnusave";
             this.btnusave.Size = new System.Drawing.Size(100, 28);
             this.btnusave.TabIndex = 0;
@@ -97,8 +98,8 @@
             // 
             this.btncdel.BackColor = System.Drawing.Color.White;
             this.btncdel.ForeColor = System.Drawing.Color.Black;
-            this.btncdel.Location = new System.Drawing.Point(387, 110);
-            this.btncdel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncdel.Location = new System.Drawing.Point(387, 273);
+            this.btncdel.Margin = new System.Windows.Forms.Padding(4);
             this.btncdel.Name = "btncdel";
             this.btncdel.Size = new System.Drawing.Size(100, 28);
             this.btncdel.TabIndex = 6;
@@ -110,8 +111,8 @@
             // 
             this.btntypeupdate.BackColor = System.Drawing.Color.White;
             this.btntypeupdate.ForeColor = System.Drawing.Color.Black;
-            this.btntypeupdate.Location = new System.Drawing.Point(387, 74);
-            this.btntypeupdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btntypeupdate.Location = new System.Drawing.Point(387, 204);
+            this.btntypeupdate.Margin = new System.Windows.Forms.Padding(4);
             this.btntypeupdate.Name = "btntypeupdate";
             this.btntypeupdate.Size = new System.Drawing.Size(100, 28);
             this.btntypeupdate.TabIndex = 5;
@@ -123,8 +124,8 @@
             // 
             this.btntypeLoad.BackColor = System.Drawing.Color.White;
             this.btntypeLoad.ForeColor = System.Drawing.Color.Black;
-            this.btntypeLoad.Location = new System.Drawing.Point(387, 149);
-            this.btntypeLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btntypeLoad.Location = new System.Drawing.Point(387, 343);
+            this.btntypeLoad.Margin = new System.Windows.Forms.Padding(4);
             this.btntypeLoad.Name = "btntypeLoad";
             this.btntypeLoad.Size = new System.Drawing.Size(100, 28);
             this.btntypeLoad.TabIndex = 4;
@@ -135,7 +136,7 @@
             // txtCategory
             // 
             this.txtCategory.Location = new System.Drawing.Point(96, 34);
-            this.txtCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCategory.Margin = new System.Windows.Forms.Padding(4);
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.Size = new System.Drawing.Size(281, 23);
             this.txtCategory.TabIndex = 2;
@@ -156,8 +157,8 @@
             // 
             this.btnuupdate.BackColor = System.Drawing.Color.White;
             this.btnuupdate.ForeColor = System.Drawing.Color.Black;
-            this.btnuupdate.Location = new System.Drawing.Point(387, 74);
-            this.btnuupdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnuupdate.Location = new System.Drawing.Point(391, 204);
+            this.btnuupdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnuupdate.Name = "btnuupdate";
             this.btnuupdate.Size = new System.Drawing.Size(100, 28);
             this.btnuupdate.TabIndex = 5;
@@ -169,8 +170,8 @@
             // 
             this.btnuload.BackColor = System.Drawing.Color.White;
             this.btnuload.ForeColor = System.Drawing.Color.Black;
-            this.btnuload.Location = new System.Drawing.Point(387, 144);
-            this.btnuload.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnuload.Location = new System.Drawing.Point(391, 343);
+            this.btnuload.Margin = new System.Windows.Forms.Padding(4);
             this.btnuload.Name = "btnuload";
             this.btnuload.Size = new System.Drawing.Size(100, 28);
             this.btnuload.TabIndex = 4;
@@ -187,10 +188,11 @@
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
             this.dtgulist.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dtgulist.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgulist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgulist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgulist.Location = new System.Drawing.Point(8, 66);
-            this.dtgulist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgulist.Margin = new System.Windows.Forms.Padding(4);
             this.dtgulist.Name = "dtgulist";
             this.dtgulist.RowHeadersVisible = false;
             this.dtgulist.RowHeadersWidth = 51;
@@ -202,8 +204,8 @@
             // 
             this.btnTypesave.BackColor = System.Drawing.Color.White;
             this.btnTypesave.ForeColor = System.Drawing.Color.Black;
-            this.btnTypesave.Location = new System.Drawing.Point(387, 38);
-            this.btnTypesave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTypesave.Location = new System.Drawing.Point(387, 144);
+            this.btnTypesave.Margin = new System.Windows.Forms.Padding(4);
             this.btnTypesave.Name = "btnTypesave";
             this.btnTypesave.Size = new System.Drawing.Size(100, 28);
             this.btnTypesave.TabIndex = 0;
@@ -213,6 +215,7 @@
             // 
             // GroupBox2
             // 
+            this.GroupBox2.BackColor = System.Drawing.Color.SkyBlue;
             this.GroupBox2.Controls.Add(this.btnunit);
             this.GroupBox2.Controls.Add(this.btnuupdate);
             this.GroupBox2.Controls.Add(this.btnuload);
@@ -223,9 +226,9 @@
             this.GroupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox2.ForeColor = System.Drawing.Color.Black;
             this.GroupBox2.Location = new System.Drawing.Point(523, 11);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Size = new System.Drawing.Size(499, 458);
             this.GroupBox2.TabIndex = 14;
             this.GroupBox2.TabStop = false;
@@ -235,8 +238,8 @@
             // 
             this.btnunit.BackColor = System.Drawing.Color.White;
             this.btnunit.ForeColor = System.Drawing.Color.Black;
-            this.btnunit.Location = new System.Drawing.Point(387, 108);
-            this.btnunit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnunit.Location = new System.Drawing.Point(391, 273);
+            this.btnunit.Margin = new System.Windows.Forms.Padding(4);
             this.btnunit.Name = "btnunit";
             this.btnunit.Size = new System.Drawing.Size(100, 28);
             this.btnunit.TabIndex = 7;
@@ -258,6 +261,7 @@
             // 
             // GroupBox1
             // 
+            this.GroupBox1.BackColor = System.Drawing.Color.SkyBlue;
             this.GroupBox1.Controls.Add(this.btncdel);
             this.GroupBox1.Controls.Add(this.btntypeupdate);
             this.GroupBox1.Controls.Add(this.btntypeLoad);
@@ -268,9 +272,9 @@
             this.GroupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox1.ForeColor = System.Drawing.Color.Black;
             this.GroupBox1.Location = new System.Drawing.Point(16, 11);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Size = new System.Drawing.Size(499, 458);
             this.GroupBox1.TabIndex = 13;
             this.GroupBox1.TabStop = false;
@@ -280,10 +284,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(1036, 486);
             this.Controls.Add(this.GroupBox2);
             this.Controls.Add(this.GroupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maintenance";

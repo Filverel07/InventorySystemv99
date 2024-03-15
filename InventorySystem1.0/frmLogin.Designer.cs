@@ -50,7 +50,7 @@
             // 
             this.lbldate.AutoSize = true;
             this.lbldate.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate.Location = new System.Drawing.Point(103, 220);
+            this.lbldate.Location = new System.Drawing.Point(103, 267);
             this.lbldate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(71, 29);
@@ -61,7 +61,7 @@
             // 
             this.lbltime.AutoSize = true;
             this.lbltime.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltime.Location = new System.Drawing.Point(103, 185);
+            this.lbltime.Location = new System.Drawing.Point(103, 228);
             this.lbltime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltime.Name = "lbltime";
             this.lbltime.Size = new System.Drawing.Size(71, 29);
@@ -72,7 +72,7 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(20, 220);
+            this.Label4.Location = new System.Drawing.Point(15, 267);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(68, 29);
@@ -83,7 +83,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(20, 185);
+            this.Label3.Location = new System.Drawing.Point(15, 228);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(71, 29);
@@ -93,8 +93,8 @@
             // Button3
             // 
             this.Button3.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button3.Location = new System.Drawing.Point(236, 135);
-            this.Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button3.Location = new System.Drawing.Point(235, 191);
+            this.Button3.Margin = new System.Windows.Forms.Padding(4);
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(100, 33);
             this.Button3.TabIndex = 28;
@@ -105,8 +105,8 @@
             // Button2
             // 
             this.Button2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(128, 135);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button2.Location = new System.Drawing.Point(121, 191);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(100, 33);
             this.Button2.TabIndex = 27;
@@ -117,30 +117,30 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(16, 75);
+            this.Label2.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Location = new System.Drawing.Point(116, 119);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(87, 22);
+            this.Label2.Size = new System.Drawing.Size(130, 26);
             this.Label2.TabIndex = 23;
             this.Label2.Text = "Password :";
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(16, 11);
+            this.Label1.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(116, 47);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(88, 22);
+            this.Label1.Size = new System.Drawing.Size(136, 26);
             this.Label1.TabIndex = 24;
             this.Label1.Text = "Username :";
             // 
             // txtpass
             // 
             this.txtpass.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.Location = new System.Drawing.Point(20, 98);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpass.Location = new System.Drawing.Point(20, 145);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(4);
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(315, 26);
             this.txtpass.TabIndex = 25;
@@ -149,8 +149,8 @@
             // txtusername
             // 
             this.txtusername.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(20, 34);
-            this.txtusername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtusername.Location = new System.Drawing.Point(41, 89);
+            this.txtusername.Margin = new System.Windows.Forms.Padding(4);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(258, 26);
             this.txtusername.TabIndex = 22;
@@ -158,8 +158,8 @@
             // Button1
             // 
             this.Button1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(25, 135);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button1.Location = new System.Drawing.Point(13, 191);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(100, 33);
             this.Button1.TabIndex = 26;
@@ -173,10 +173,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(343, -5);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox1.Location = new System.Drawing.Point(323, -29);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(290, 313);
+            this.PictureBox1.Size = new System.Drawing.Size(329, 342);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 33;
             this.PictureBox1.TabStop = false;
@@ -190,6 +190,7 @@
             this.AcceptButton = this.Button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(634, 305);
             this.Controls.Add(this.lbldate);
             this.Controls.Add(this.lbltime);
@@ -203,7 +204,7 @@
             this.Controls.Add(this.txtusername);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.PictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

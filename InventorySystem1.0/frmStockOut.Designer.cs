@@ -36,6 +36,8 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.Label15 = new System.Windows.Forms.Label();
+            this.txtCus_lname = new System.Windows.Forms.TextBox();
+            this.txtCus_fname = new System.Windows.Forms.TextBox();
             this.Label8 = new System.Windows.Forms.Label();
             this.btnCus_clear = new System.Windows.Forms.Button();
             this.btnCus_Remove = new System.Windows.Forms.Button();
@@ -53,8 +55,6 @@
             this.Label6 = new System.Windows.Forms.Label();
             this.dtgCus_itemlist = new System.Windows.Forms.DataGridView();
             this.txtsearch = new System.Windows.Forms.TextBox();
-            this.txtCus_lname = new System.Windows.Forms.TextBox();
-            this.txtCus_fname = new System.Windows.Forms.TextBox();
             this.Panel1.SuspendLayout();
             this.Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtCus_addedlist)).BeginInit();
@@ -67,7 +67,7 @@
             this.Button2.BackColor = System.Drawing.Color.Transparent;
             this.Button2.ForeColor = System.Drawing.Color.Black;
             this.Button2.Location = new System.Drawing.Point(520, 596);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(117, 32);
             this.Button2.TabIndex = 29;
@@ -80,7 +80,7 @@
             this.btnviewStockout.BackColor = System.Drawing.Color.Transparent;
             this.btnviewStockout.ForeColor = System.Drawing.Color.Black;
             this.btnviewStockout.Location = new System.Drawing.Point(395, 596);
-            this.btnviewStockout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnviewStockout.Margin = new System.Windows.Forms.Padding(4);
             this.btnviewStockout.Name = "btnviewStockout";
             this.btnviewStockout.Size = new System.Drawing.Size(117, 32);
             this.btnviewStockout.TabIndex = 28;
@@ -100,7 +100,7 @@
             this.Panel1.Controls.Add(this.txtCus_lname);
             this.Panel1.Controls.Add(this.txtCus_fname);
             this.Panel1.Location = new System.Drawing.Point(16, 15);
-            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(819, 108);
             this.Panel1.TabIndex = 27;
@@ -120,7 +120,7 @@
             this.txt_cusid.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txt_cusid.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txt_cusid.Location = new System.Drawing.Point(105, 33);
-            this.txt_cusid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_cusid.Margin = new System.Windows.Forms.Padding(4);
             this.txt_cusid.Name = "txt_cusid";
             this.txt_cusid.Size = new System.Drawing.Size(272, 22);
             this.txt_cusid.TabIndex = 7;
@@ -133,9 +133,9 @@
             this.Label1.Location = new System.Drawing.Point(4, 0);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(104, 29);
+            this.Label1.Size = new System.Drawing.Size(117, 29);
             this.Label1.TabIndex = 3;
-            this.Label1.Text = "Supplier";
+            this.Label1.Text = "Customer";
             // 
             // Label5
             // 
@@ -157,6 +157,27 @@
             this.Label15.TabIndex = 1;
             this.Label15.Text = "First Name :";
             // 
+            // txtCus_lname
+            // 
+            this.txtCus_lname.Enabled = false;
+            this.txtCus_lname.Location = new System.Drawing.Point(500, 65);
+            this.txtCus_lname.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCus_lname.Name = "txtCus_lname";
+            this.txtCus_lname.Size = new System.Drawing.Size(292, 22);
+            this.txtCus_lname.TabIndex = 0;
+            // 
+            // txtCus_fname
+            // 
+            this.txtCus_fname.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtCus_fname.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.txtCus_fname.Enabled = false;
+            this.txtCus_fname.Location = new System.Drawing.Point(105, 65);
+            this.txtCus_fname.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCus_fname.Name = "txtCus_fname";
+            this.txtCus_fname.Size = new System.Drawing.Size(272, 22);
+            this.txtCus_fname.TabIndex = 0;
+            this.txtCus_fname.TextChanged += new System.EventHandler(this.txtCus_fname_TextChanged);
+            // 
             // Label8
             // 
             this.Label8.AutoSize = true;
@@ -173,7 +194,7 @@
             this.btnCus_clear.BackColor = System.Drawing.Color.Transparent;
             this.btnCus_clear.ForeColor = System.Drawing.Color.Black;
             this.btnCus_clear.Location = new System.Drawing.Point(267, 596);
-            this.btnCus_clear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCus_clear.Margin = new System.Windows.Forms.Padding(4);
             this.btnCus_clear.Name = "btnCus_clear";
             this.btnCus_clear.Size = new System.Drawing.Size(117, 32);
             this.btnCus_clear.TabIndex = 23;
@@ -186,7 +207,7 @@
             this.btnCus_Remove.BackColor = System.Drawing.Color.Transparent;
             this.btnCus_Remove.ForeColor = System.Drawing.Color.Black;
             this.btnCus_Remove.Location = new System.Drawing.Point(141, 596);
-            this.btnCus_Remove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCus_Remove.Margin = new System.Windows.Forms.Padding(4);
             this.btnCus_Remove.Name = "btnCus_Remove";
             this.btnCus_Remove.Size = new System.Drawing.Size(117, 32);
             this.btnCus_Remove.TabIndex = 24;
@@ -199,7 +220,7 @@
             this.btnCus_save.BackColor = System.Drawing.Color.Transparent;
             this.btnCus_save.ForeColor = System.Drawing.Color.Black;
             this.btnCus_save.Location = new System.Drawing.Point(16, 596);
-            this.btnCus_save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCus_save.Margin = new System.Windows.Forms.Padding(4);
             this.btnCus_save.Name = "btnCus_save";
             this.btnCus_save.Size = new System.Drawing.Size(117, 32);
             this.btnCus_save.TabIndex = 25;
@@ -213,7 +234,7 @@
             this.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel3.Controls.Add(this.dtCus_addedlist);
             this.Panel3.Location = new System.Drawing.Point(16, 384);
-            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(819, 204);
             this.Panel3.TabIndex = 21;
@@ -234,7 +255,7 @@
             this.Column6});
             this.dtCus_addedlist.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtCus_addedlist.Location = new System.Drawing.Point(0, 0);
-            this.dtCus_addedlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtCus_addedlist.Margin = new System.Windows.Forms.Padding(4);
             this.dtCus_addedlist.Name = "dtCus_addedlist";
             this.dtCus_addedlist.RowHeadersWidth = 51;
             this.dtCus_addedlist.Size = new System.Drawing.Size(817, 202);
@@ -293,7 +314,7 @@
             this.Panel2.Controls.Add(this.txtsearch);
             this.Panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Panel2.Location = new System.Drawing.Point(16, 130);
-            this.Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.Panel2.Name = "Panel2";
             this.Panel2.Size = new System.Drawing.Size(819, 206);
             this.Panel2.TabIndex = 20;
@@ -330,7 +351,7 @@
             this.dtgCus_itemlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgCus_itemlist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgCus_itemlist.Location = new System.Drawing.Point(4, 36);
-            this.dtgCus_itemlist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgCus_itemlist.Margin = new System.Windows.Forms.Padding(4);
             this.dtgCus_itemlist.Name = "dtgCus_itemlist";
             this.dtgCus_itemlist.RowHeadersVisible = false;
             this.dtgCus_itemlist.RowHeadersWidth = 51;
@@ -343,32 +364,11 @@
             this.txtsearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtsearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtsearch.Location = new System.Drawing.Point(517, 4);
-            this.txtsearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtsearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtsearch.Name = "txtsearch";
             this.txtsearch.Size = new System.Drawing.Size(292, 23);
             this.txtsearch.TabIndex = 3;
             this.txtsearch.TextChanged += new System.EventHandler(this.txtsearch_TextChanged);
-            // 
-            // txtCus_lname
-            // 
-            this.txtCus_lname.Enabled = false;
-            this.txtCus_lname.Location = new System.Drawing.Point(500, 65);
-            this.txtCus_lname.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCus_lname.Name = "txtCus_lname";
-            this.txtCus_lname.Size = new System.Drawing.Size(292, 22);
-            this.txtCus_lname.TabIndex = 0;
-            // 
-            // txtCus_fname
-            // 
-            this.txtCus_fname.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.txtCus_fname.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.txtCus_fname.Enabled = false;
-            this.txtCus_fname.Location = new System.Drawing.Point(105, 65);
-            this.txtCus_fname.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCus_fname.Name = "txtCus_fname";
-            this.txtCus_fname.Size = new System.Drawing.Size(272, 22);
-            this.txtCus_fname.TabIndex = 0;
-            this.txtCus_fname.TextChanged += new System.EventHandler(this.txtCus_fname_TextChanged);
             // 
             // frmStockOut
             // 
@@ -384,7 +384,7 @@
             this.Controls.Add(this.btnCus_save);
             this.Controls.Add(this.Panel3);
             this.Controls.Add(this.Panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmStockOut";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock-Out";
