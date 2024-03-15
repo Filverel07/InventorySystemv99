@@ -278,12 +278,6 @@ namespace InventorySystem1._0
             }
 
             this.Close();
-            
-
-
-
-
-
         }
     }
 }

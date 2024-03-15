@@ -42,15 +42,12 @@ namespace InventorySystem1._0
         {
             PurchaseOrderGridView.Rows.Clear();
 
-            // Add each item from listBoxItems as separate rows in PurchaseOrderGridView
             foreach (string selectedItem in listBoxItems.Items)
             {
-                // Split each item into itemID and itemName
                 string[] parts = selectedItem.Split(':');
                 string itemID = parts[0].Trim();
                 string itemName = parts[1].Trim();
 
-                // Add a new row to PurchaseOrderGridView with itemID and itemName
                 PurchaseOrderGridView.Rows.Add(itemID, itemName);
             }
         }
@@ -70,6 +67,11 @@ namespace InventorySystem1._0
             frmItems itemsForm = new frmItems();
             itemsForm.Show();
             this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
