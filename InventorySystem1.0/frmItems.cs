@@ -258,6 +258,8 @@ namespace InventorySystem1._0
 
         private void btnGenerateOrderList_Click(object sender, EventArgs e)
         {
+
+            Form1 form = new Form1();
             // Query items with quantities below 5
             string sql = "SELECT * FROM tblitems WHERE QTY < 5";
             config.Load_DTG(sql, dtglist);
@@ -274,6 +276,13 @@ namespace InventorySystem1._0
             {
                 MessageBox.Show("No items need to be repurchased.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            this.Close();
+            
+
+
+
+
 
         }
     }
