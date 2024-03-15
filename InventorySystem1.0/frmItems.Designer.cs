@@ -59,6 +59,7 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.Label7 = new System.Windows.Forms.Label();
             this.pnl_stockmaster = new System.Windows.Forms.Panel();
+            this.btnGenerateOrderList = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtglist)).BeginInit();
             this.Panel2.SuspendLayout();
             this.pnl_stockmaster.SuspendLayout();
@@ -412,6 +413,7 @@
             // pnl_stockmaster
             // 
             this.pnl_stockmaster.BackColor = System.Drawing.Color.SteelBlue;
+            this.pnl_stockmaster.Controls.Add(this.btnGenerateOrderList);
             this.pnl_stockmaster.Controls.Add(this.txtitemid);
             this.pnl_stockmaster.Controls.Add(this.Label8);
             this.pnl_stockmaster.Controls.Add(this.cbounit);
@@ -432,6 +434,16 @@
             this.pnl_stockmaster.Name = "pnl_stockmaster";
             this.pnl_stockmaster.Size = new System.Drawing.Size(997, 226);
             this.pnl_stockmaster.TabIndex = 30;
+            // 
+            // btnGenerateOrderList
+            // 
+            this.btnGenerateOrderList.Location = new System.Drawing.Point(824, 192);
+            this.btnGenerateOrderList.Name = "btnGenerateOrderList";
+            this.btnGenerateOrderList.Size = new System.Drawing.Size(163, 31);
+            this.btnGenerateOrderList.TabIndex = 45;
+            this.btnGenerateOrderList.Text = "Generate PO";
+            this.btnGenerateOrderList.UseVisualStyleBackColor = true;
+            this.btnGenerateOrderList.Click += new System.EventHandler(this.btnGenerateOrderList_Click);
             // 
             // frmItems
             // 
@@ -502,5 +514,6 @@
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.Label Label7;
         internal System.Windows.Forms.Panel pnl_stockmaster;
+        private System.Windows.Forms.Button btnGenerateOrderList;
     }
 }
