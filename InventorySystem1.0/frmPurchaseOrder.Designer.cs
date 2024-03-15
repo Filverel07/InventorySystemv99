@@ -36,6 +36,8 @@
             this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseOrderGridView)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +56,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(719, 379);
+            this.button1.Location = new System.Drawing.Point(614, 533);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 47);
             this.button1.TabIndex = 1;
@@ -65,6 +67,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Turquoise;
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.PurchaseOrderGridView);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
@@ -82,11 +86,11 @@
             this.Product,
             this.NAME,
             this.QTY});
-            this.PurchaseOrderGridView.Location = new System.Drawing.Point(500, 43);
+            this.PurchaseOrderGridView.Location = new System.Drawing.Point(475, 43);
             this.PurchaseOrderGridView.Name = "PurchaseOrderGridView";
             this.PurchaseOrderGridView.RowHeadersWidth = 51;
             this.PurchaseOrderGridView.RowTemplate.Height = 24;
-            this.PurchaseOrderGridView.Size = new System.Drawing.Size(567, 265);
+            this.PurchaseOrderGridView.Size = new System.Drawing.Size(567, 331);
             this.PurchaseOrderGridView.TabIndex = 3;
             this.PurchaseOrderGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PurchaseOrderGridView_CellContentClick);
             // 
@@ -122,6 +126,25 @@
             this.label1.Text = "Purchase Order";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(771, 533);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 47);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Send";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(925, 533);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(117, 47);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Back";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmPurchaseOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -149,5 +172,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Product;
         private System.Windows.Forms.DataGridViewTextBoxColumn NAME;
         private System.Windows.Forms.DataGridViewTextBoxColumn QTY;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

@@ -441,7 +441,7 @@
             this.btnGenerateOrderList.Name = "btnGenerateOrderList";
             this.btnGenerateOrderList.Size = new System.Drawing.Size(163, 31);
             this.btnGenerateOrderList.TabIndex = 45;
-            this.btnGenerateOrderList.Text = "Check Low Qty Items";
+            this.btnGenerateOrderList.Text = "Generate PO";
             this.btnGenerateOrderList.UseVisualStyleBackColor = true;
             this.btnGenerateOrderList.Click += new System.EventHandler(this.btnGenerateOrderList_Click);
             // 
