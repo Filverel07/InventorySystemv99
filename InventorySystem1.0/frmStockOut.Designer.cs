@@ -90,7 +90,7 @@
             // 
             // Panel1
             // 
-            this.Panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Panel1.BackColor = System.Drawing.Color.LightCyan;
             this.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel1.Controls.Add(this.Label2);
             this.Panel1.Controls.Add(this.txt_cusid);
@@ -245,6 +245,7 @@
             this.dtCus_addedlist.AllowUserToDeleteRows = false;
             this.dtCus_addedlist.AllowUserToResizeColumns = false;
             this.dtCus_addedlist.AllowUserToResizeRows = false;
+            this.dtCus_addedlist.BackgroundColor = System.Drawing.Color.White;
             this.dtCus_addedlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtCus_addedlist.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -306,7 +307,7 @@
             // 
             // Panel2
             // 
-            this.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Panel2.BackColor = System.Drawing.Color.LightCyan;
             this.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel2.Controls.Add(this.Label7);
             this.Panel2.Controls.Add(this.Label6);
@@ -348,6 +349,7 @@
             this.dtgCus_itemlist.AllowUserToResizeRows = false;
             this.dtgCus_itemlist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgCus_itemlist.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtgCus_itemlist.BackgroundColor = System.Drawing.Color.White;
             this.dtgCus_itemlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgCus_itemlist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgCus_itemlist.Location = new System.Drawing.Point(4, 36);
@@ -374,6 +376,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(849, 634);
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.btnviewStockout);

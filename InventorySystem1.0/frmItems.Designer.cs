@@ -110,10 +110,11 @@
             // 
             // txtsearch
             // 
+            this.txtsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsearch.Location = new System.Drawing.Point(629, 289);
             this.txtsearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtsearch.Name = "txtsearch";
-            this.txtsearch.Size = new System.Drawing.Size(349, 22);
+            this.txtsearch.Size = new System.Drawing.Size(349, 27);
             this.txtsearch.TabIndex = 29;
             this.txtsearch.TextChanged += new System.EventHandler(this.txtsearch_TextChanged);
             // 
@@ -330,6 +331,7 @@
             // 
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label8.ForeColor = System.Drawing.Color.Black;
             this.Label8.Location = new System.Drawing.Point(63, 42);
             this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
@@ -340,15 +342,11 @@
             // cbounit
             // 
             this.cbounit.FormattingEnabled = true;
-            this.cbounit.Items.AddRange(new object[] {
-            "Metre",
-            "Pcs."});
             this.cbounit.Location = new System.Drawing.Point(808, 160);
             this.cbounit.Margin = new System.Windows.Forms.Padding(4);
             this.cbounit.Name = "cbounit";
             this.cbounit.Size = new System.Drawing.Size(115, 25);
             this.cbounit.TabIndex = 6;
-            this.cbounit.Text = "Metre";
             // 
             // dtglist
             // 
@@ -413,7 +411,7 @@
             // 
             // pnl_stockmaster
             // 
-            this.pnl_stockmaster.BackColor = System.Drawing.Color.White;
+            this.pnl_stockmaster.BackColor = System.Drawing.Color.SteelBlue;
             this.pnl_stockmaster.Controls.Add(this.txtitemid);
             this.pnl_stockmaster.Controls.Add(this.Label8);
             this.pnl_stockmaster.Controls.Add(this.cbounit);
@@ -439,6 +437,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(997, 726);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.Label6);
