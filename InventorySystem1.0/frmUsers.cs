@@ -122,5 +122,10 @@ namespace InventorySystem1._0
                 btn_delete.Enabled = true;
             }
         }
+
+        private void txt_pass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

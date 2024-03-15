@@ -1,5 +1,5 @@
 ﻿using CrystalDecisions.Windows.Forms;
-
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace InventorySystem1._0
 {
@@ -268,7 +268,7 @@ namespace InventorySystem1._0
         internal System.Windows.Forms.DateTimePicker dtpto;
         internal System.Windows.Forms.DateTimePicker dptfrom;
         internal System.Windows.Forms.ComboBox ComboBox1;
-        //private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private System.Windows.Forms.Button button1;
 
        

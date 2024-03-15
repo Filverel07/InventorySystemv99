@@ -38,6 +38,7 @@
             this.ts_Report = new System.Windows.Forms.ToolStripButton();
             this.ts_settings = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.ts_suppliers = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,12 +141,23 @@
             this.ts_Return,
             this.ts_ManageUsers,
             this.ts_Report,
-            this.ts_settings});
+            this.ts_settings,
+            this.ts_suppliers});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(161, 684);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // ts_suppliers
+            // 
+            this.ts_suppliers.Image = ((System.Drawing.Image)(resources.GetObject("ts_suppliers.Image")));
+            this.ts_suppliers.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ts_suppliers.Name = "ts_suppliers";
+            this.ts_suppliers.Size = new System.Drawing.Size(158, 59);
+            this.ts_suppliers.Text = "Suppliers";
+            this.ts_suppliers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.ts_suppliers.Click += new System.EventHandler(this.ts_suppliers_Click);
             // 
             // Form1
             // 
@@ -181,6 +193,7 @@
         private System.Windows.Forms.ToolStripButton ts_Report;
         private System.Windows.Forms.ToolStripButton ts_settings;
         private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton ts_suppliers;
     }
 }
 
