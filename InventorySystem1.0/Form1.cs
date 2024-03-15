@@ -33,6 +33,7 @@ namespace InventorySystem1._0
             ts_Return.Enabled = true;
             ts_StockOut.Enabled = true;
             ts_stocks.Enabled = true;
+            ts_suppliers.Enabled = true;
             ts_Login.Text = "Logout";
             ts_Login.Image = Resources.lock_open;
             ts_settings.Enabled = true;
@@ -45,6 +46,7 @@ namespace InventorySystem1._0
             ts_Return.Enabled = false;
             ts_StockOut.Enabled = false;
             ts_stocks.Enabled = false;
+            ts_suppliers.Enabled = false;
             ts_Login.Image = Resources.login;
             ts_settings.Enabled = false;
         }
